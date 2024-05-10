@@ -1,11 +1,23 @@
 package Spring.Beans;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Student {
+    @Id
     private String id;
     private String name;
-    private int age;
+    private Integer age;
 
-    // Getter and setter methods
+    public Student() {
+    }
+    public Student(String id, String name, Integer age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
+
     public String getId() {
         return id;
     }

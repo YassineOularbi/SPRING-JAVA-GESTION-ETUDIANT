@@ -7,10 +7,9 @@
 </head>
 <body>
 <h2>Student Registration Form</h2>
-<form action="save-student" method="post">
-    id: <input type="text" name="id"><br>
-    Name: <input type="text" name="name"><br>
-    Age: <input type="number" name="age"><br>
+<form action="students" method="post">
+    Name: <input type="text" name="name" value="${Student.getName()}" readonly><br>
+    Age: <input type="text" name="age" value="${Student.getAge()}"><br>
     <input type="submit" value="Submit">
 </form>
 </body>
