@@ -14,24 +14,21 @@
       <change afterPath="$PROJECT_DIR$/../BRIEF-WEATHER-APP/src/City.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Magerama-cinema-BM/src/main/java/jee/javapack/servlets/CinemaHome.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QUIZ-JAVA/QUIZ-JAVA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Spring/data/DAORepository/HibernateDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Spring/data/DAORepository/HibernateDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Spring/data/DAORepository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Spring/data/Service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Spring/data/hibernateConfig/HibernateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/UpdateForm.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hibernate/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hibernate/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hibernate/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spring/Beans/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spring/Beans/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spring/Controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spring/Controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spring/data/DAORepository/HibernateDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spring/data/DAORepository/HibernateDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spring/data/DAORepository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spring/DATA/DAORepository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spring/data/Service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spring/DATA/ServiceFactory/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spring/data/hibernateConfig/HibernateConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/StudentForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/StudentForm.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/StudentList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/StudentList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/UpdateForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/UpdateForm.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +198,7 @@
       <updated>1715088137929</updated>
       <workItem from="1715088139088" duration="16956000" />
       <workItem from="1715266782509" duration="8093000" />
-      <workItem from="1715328928305" duration="2173000" />
+      <workItem from="1715328928305" duration="2816000" />
     </task>
     <servers />
   </component>

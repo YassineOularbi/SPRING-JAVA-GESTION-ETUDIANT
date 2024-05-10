@@ -6,39 +6,77 @@ import javax.persistence.Id;
 @Entity
 public class Student {
     @Id
-    private String id;
-    private String name;
-    private Integer age;
+    private String studentIDNumber;
+    private String studentName;
+    private String studentEmail;
+    private String studentPhoneNumber;
+    private String studentProfilePicture;
+    private String studentHasPCNumber;
+    private String studentHasBike;
 
-    public Student() {
-    }
-    public Student(String id, String name, Integer age) {
-        this.id = id;
-        this.name = name;
-        this.age = age;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
+    public Student(String studentIDNumber, String studentName, String studentEmail, String studentPhoneNumber, String studentProfilePicture, String studentHasPCNumber, String studentHasBike) {
+        this.studentIDNumber = studentIDNumber;
+        this.studentName = studentName;
+        this.studentEmail = studentEmail;
+        this.studentPhoneNumber = studentPhoneNumber;
+        this.studentProfilePicture = studentProfilePicture;
+        this.studentHasPCNumber = studentHasPCNumber;
+        this.studentHasBike = studentHasBike;
     }
 
-    public String getName() {
-        return name;
+    public String getStudentIDNumber() {
+        return studentIDNumber;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setStudentIDNumber(String studentIDNumber) {
+        this.studentIDNumber = studentIDNumber;
     }
 
-    public int getAge() {
-        return age;
+    public String getStudentName() {
+        return studentName;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
+    public String getStudentEmail() {
+        return studentEmail;
+    }
+
+    public void setStudentEmail(String studentEmail) {
+        this.studentEmail = studentEmail;
+    }
+
+    public String getStudentPhoneNumber() {
+        return studentPhoneNumber;
+    }
+
+    public void setStudentPhoneNumber(String studentPhoneNumber) {
+        this.studentPhoneNumber = studentPhoneNumber;
+    }
+
+    public String getStudentProfilePicture() {
+        return studentProfilePicture;
+    }
+
+    public void setStudentProfilePicture(String studentProfilePicture) {
+        this.studentProfilePicture = studentProfilePicture;
+    }
+
+    public String getStudentHasPCNumber() {
+        return studentHasPCNumber;
+    }
+
+    public void setStudentHasPCNumber(String studentHasPCNumber) {
+        this.studentHasPCNumber = studentHasPCNumber;
+    }
+
+    public String getStudentHasBike() {
+        return studentHasBike;
+    }
+
+    public void setStudentHasBike(String studentHasBike) {
+        this.studentHasBike = studentHasBike;
     }
 }
