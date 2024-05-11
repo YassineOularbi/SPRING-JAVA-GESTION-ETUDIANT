@@ -20,16 +20,26 @@
     </thead>
     <tbody>
     <c:forEach var="student" items="${students}">
+        <!-- construct an "update" link with customer id -->
+        <c:url var="updateLink" value="/update-student">
+            <c:param name="studentId" value="${student.getStudentIDNumber()}" />
+        </c:url>
+
+        <!-- construct an "delete" link with customer id -->
+        <c:url var="deleteLink" value="/remove-student">
+            <c:param name="studentId" value="${student.getStudentIDNumber()}" />
+        </c:url>
         <tr>
-            <td>${student.studentIDNumber}</td>
-            <td>${student.studentName}</td>
-            <td>${student.studentEmail}</td>
-            <td>${student.studentPhoneNumber}</td>
-            <td>${student.studentHasPCNumber}</td>
-            <td>${student.studentHasBike}</td>
+            <td>${student.getStudentIDNumber()}</td>
+            <td>${student.getStudentName()}</td>
+            <td>${student.getStudentEmail()}</td>
+            <td>${student.getStudentPhoneNumber()}</td>
+            <td>${student.getStudentHasPCNumber()}</td>
+            <td>${student.getStudentHasBike()}</td>
             <td>
-                <a href="remove-student/${student.studentIDNumber}" class="btn btn-danger">Supprimer</a>
-                <a href="update-student/${student.studentIDNumber}" class="btn btn-primary">Modifier</a>
+                <!-- display the update link -->
+                <a href="${updateLink}">Update</a>
+                <a href="${deleteLink}" onclick="if (!(confirm('Are you sure you want to delete this customer?'))) return false">Delete</a>
             </td>
         </tr>
     </c:forEach>

@@ -1,27 +1,30 @@
-package Spring.Beans;
+package spring.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "student")
 public class Student {
     @Id
+    @Column(name="student_id")
     private String studentIDNumber;
+    @Column(name="student_name")
     private String studentName;
+    @Column(name="student_email")
     private String studentEmail;
+    @Column(name="student_phone")
     private String studentPhoneNumber;
+    @Column(name="student_picture")
     private String studentProfilePicture;
+    @Column(name="student_pc")
     private String studentHasPCNumber;
+    @Column(name="student_bike")
     private String studentHasBike;
 
-    public Student(String studentIDNumber, String studentName, String studentEmail, String studentPhoneNumber, String studentProfilePicture, String studentHasPCNumber, String studentHasBike) {
-        this.studentIDNumber = studentIDNumber;
-        this.studentName = studentName;
-        this.studentEmail = studentEmail;
-        this.studentPhoneNumber = studentPhoneNumber;
-        this.studentProfilePicture = studentProfilePicture;
-        this.studentHasPCNumber = studentHasPCNumber;
-        this.studentHasBike = studentHasBike;
+    public Student() {
     }
 
     public String getStudentIDNumber() {
@@ -78,5 +81,18 @@ public class Student {
 
     public void setStudentHasBike(String studentHasBike) {
         this.studentHasBike = studentHasBike;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentIDNumber='" + studentIDNumber + '\'' +
+                ", studentName='" + studentName + '\'' +
+                ", studentEmail='" + studentEmail + '\'' +
+                ", studentPhoneNumber='" + studentPhoneNumber + '\'' +
+                ", studentProfilePicture='" + studentProfilePicture + '\'' +
+                ", studentHasPCNumber='" + studentHasPCNumber + '\'' +
+                ", studentHasBike='" + studentHasBike + '\'' +
+                '}';
     }
 }

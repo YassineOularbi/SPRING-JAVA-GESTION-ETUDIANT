@@ -12,7 +12,7 @@
 
 <div class="container">
     <h2 class="mt-5">Student Form</h2>
-    <form action="/save-student" method="POST">
+    <form action="save-student" method="POST">
         <div class="form-group">
             <label for="studentIDNumber">ID Number:</label>
             <input type="text" class="form-control" id="studentIDNumber" name="studentIDNumber">
