@@ -1,8 +1,8 @@
 # Système de Gestion des Étudiants avec Spring Framework
 
-![Spring Framework](https://github.com/spring-projects/spring-framework/raw/main/src/docs/spring-framework.png)
-
 Ce projet est un système de gestion des étudiants développé avec le framework Spring pour l'école ENAA. Il permet aux administrateurs de gérer efficacement les dossiers des étudiants en incluant des fonctionnalités telles que l'ajout, la visualisation, la mise à jour et la suppression des étudiants.
+
+# <img src="framework-docs/src/docs/spring-framework.png" width="80" height="80"> Spring Framework [![Build Status](https://github.com/spring-projects/spring-framework/actions/workflows/build-and-deploy-snapshot.yml/badge.svg?branch=main)](https://github.com/spring-projects/spring-framework/actions/workflows/build-and-deploy-snapshot.yml?query=branch%3Amain) [![Revved up by Develocity](https://img.shields.io/badge/Revved%20up%20by-Develocity-06A0CE?logo=Gradle&labelColor=02303A)](https://ge.spring.io/scans?search.rootProjectNames=spring)
 
 ## Table des Matières
 
