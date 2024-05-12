@@ -9,12 +9,12 @@ import java.util.List;
 
 public interface StudentService {
 
-    public List<Student> getStudents();
+    List<Student> getStudents();
 
-    public void saveStudent(Student student);
+    void saveStudent(Student student);
 
-    public Student getStudent(String id) throws ResourceNotFoundException;
+    Student getStudent(String id) throws ResourceNotFoundException;
 
-    public void deleteStudent(String id);
+    void deleteStudent(String id);
 
 }

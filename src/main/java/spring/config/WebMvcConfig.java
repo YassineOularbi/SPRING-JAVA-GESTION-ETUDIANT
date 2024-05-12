@@ -10,10 +10,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
-/**
- * @author Ramesh Fadatare
- */
-
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = {"spring.controller"})
@@ -22,7 +18,7 @@ public class WebMvcConfig implements WebMvcConfigurer{
     public InternalResourceViewResolver resolver() {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
         resolver.setViewClass(JstlView.class);
-        resolver.setPrefix("/WEB-INF/view/");
+        resolver.setPrefix("/WEB-INF/views/");
         resolver.setSuffix(".jsp");
         return resolver;
     }

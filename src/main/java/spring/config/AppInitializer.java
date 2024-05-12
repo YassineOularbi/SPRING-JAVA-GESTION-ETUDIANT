@@ -2,9 +2,6 @@ package spring.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-/**
- * @author Ramesh Fadatare
- */
 public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
     @Override

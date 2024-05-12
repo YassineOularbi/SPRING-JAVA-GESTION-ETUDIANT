@@ -1,0 +1,141 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    /* COLORS */
+    --primary-color: #9cc943;
+    --secondary-color: #183862;
+    --tertiary-color:#747f8e;
+    --light-color: #ffffff;
+    /* --dark-color: #000000; */
+    --background-light: #f2f5f8;
+    /* --background-dark: rgba(34, 44, 37, 0.63); */
+    --sidebar-light: #dee3e8;
+    /* --sidebar-dark: rgba(0, 0, 0, 0.7); */
+    --color-lightesse: #18386257;
+    --color-darkesse: rgba(18, 61, 45, 0.3);
+
+    /* TRANSITION */
+    --tran-02 : all 0.2s ease;
+    --tran-03 : all 0.3s ease;
+    --tran-04 : all 0.4s ease;
+    --tran-05 : all 0.5s ease;
+}
+
+body{
+    height: 100vh;
+    gap: 10px;
+    background: var(--background-light);
+}
+
+/* SideBar CSS */
+
+.sidebar{
+    background: var(--sidebar-light);
+    border-radius: 20px;
+    height: 95%;
+    width: 15%;
+    padding: 10px 10px;
+    margin: 15px;
+}
+.menu-bar{
+    height: 85%;
+    width: 99%;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+}
+.sidebar .image-text .image img{
+    width: 97%;
+    padding: 20% 10%;
+}
+.text{
+    color: var(--secondary-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sidebar i{
+    font-size: 15px;
+    width: 50px;
+    height: 30px;
+    color: var(--secondary-color);
+    text-align: center;
+    align-content: center;
+}
+.sidebar span{
+    font-size: 12px;
+    width: 120px;
+    height: 30px;
+    color: var(--secondary-color);
+    text-align: start;
+    align-content: center;
+}
+.nav-link{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    border-left: 5px solid transparent;
+    justify-content: space-between;
+    cursor: pointer;
+    transform: var(--tran-03);
+}
+.nav-link:hover{
+    width: 100%;
+    height: 30px;
+    background-color: var(--color-lightesse);
+    border-left: 5px solid var(--secondary-color);
+    border-radius: 2px;
+}
+.nav-link:hover i{
+    color: var(--secondary-color);
+}
+.nav-link:hover span{
+    color: var(--secondary-color);
+}
+.active{
+    width: 100%;
+    height: 30px;
+    background-color: var(--secondary-color);
+    border-left: 5px solid var(--primary-color);
+    border-radius: 2px;
+}
+.active i, .active span{
+    color: var(--primary-color);
+}
+/* end SideBar */
+/* Student List */
+.student-list{
+    background-color: var(--sidebar-light);
+    width: 85%;
+    height: 95%;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 15px;
+}
+.admin{
+    background-color: var(--background-light);
+    width: 100%;
+    height: 10%;
+    border-radius: calc(20px - 10px);
+}
+.student{
+    background-color: var(--background-light);
+    width: 100%;
+    height: 87%;
+    border-radius: calc(20px - 10px);
+}
+.student .head-student{
+    width: 100%;
+    height: 12%;
+    padding: 15px 15px;
+}
